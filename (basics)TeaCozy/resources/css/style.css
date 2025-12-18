@@ -1,0 +1,226 @@
+/* Universal Styles */
+html {
+  box-sizing: border-box;
+  background-color: black;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.83rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.83rem;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  
+}
+
+.main-content {
+  justify-items: center;
+  position: relative;
+  top: 3.136rem;
+}
+
+#Mission, #Featured, #Locations, #Contact {
+  justify-items: center;
+}
+
+/* Header */
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 99%;
+  padding: 0 0.4545rem;
+  height: 3.136rem;
+  background-color: black;
+  z-index: 1;
+  
+  border-bottom: solid 1px seashell; 
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+
+header .logo { 
+  flex: 1;
+}
+
+header .logo img {
+  height: 2.2727rem;
+}
+
+header nav {
+  position: relative;
+  right: 0;
+  display: flex;
+}
+
+header ul {
+  display: flex;    
+}
+
+header li {
+  padding-left: 2.5rem;
+  padding-right: 0.4545rem;
+}
+
+header a {
+  
+  color: seashell;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/*@media only screen and (max-width: 760px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    border-bottom: solid 1px #c6c1c1;
+    
+  }
+}*/
+
+/* Mission */
+#Mission {
+  display: flex;
+  align-items: center;
+  height: 31.82rem;
+  width: 54.54rem;
+  background-image: url("../images/mission-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Mission .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 54.54rem;
+  height: 4rem; 
+  margin: 0;
+}
+
+#Mission h2 {
+  padding: 0.5rem 0;
+}
+
+#Mission h4 {
+  
+}
+
+/* Featured */
+#Featured {
+  padding-top: 2rem;
+  width: 45.45rem;
+  height: auto;
+}
+
+#Featured h2 {
+  line-height: 3rem;
+}
+
+#Featured h4 {
+  padding-top: 0.5rem;
+  padding-bottom: 1.3rem;
+  text-align: center;
+}
+
+#Featured .container {
+  display: flex;
+}
+
+#Featured .frame {
+  margin: 0 1rem;
+}
+
+#Featured img {
+  height: 9.1rem;
+  width: 13.63rem;
+}
+
+/* Locations */
+#Locations {
+  height: 22.73rem;
+  width: 54.55rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/locations-background.jpg");
+}
+
+#Locations-Container {
+  margin-top: 0.682rem;
+  display: flex;
+  
+}
+
+#Locations h2 {
+  padding-top: 2.5rem;
+}
+
+.box {
+  height: 13.63rem;
+  width: 13.63rem;
+  background-color: black;
+  margin: 0 1.82rem;
+
+}
+
+.box p, h3 {
+  text-align: center;
+  line-height: 3.3rem;
+}
+
+/* Contact */
+#Contact {
+  height: 9.1rem;
+}
+
+#Contact h2 {
+  padding: 1rem;
+}
+
+#Contact h5 {
+  padding-top: 1rem;
+}
+
+/* Footer */
+footer {
+  top: 3.136rem;
+  position: relative;
+  justify-items: left;
+  padding: 1rem 1rem;
+}
