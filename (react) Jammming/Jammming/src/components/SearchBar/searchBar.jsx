@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function searchBar() {
+function SearchBar() {
     const [userInput, setUserInput] = useState('');
 
     return (
@@ -12,9 +12,9 @@ function searchBar() {
                 value={userInput} 
                 onChange={(e) => setUserInput(e.target.value)}
             />
-            <button>Search</button>
+            
         </form>
     )
 }
 
-export default searchBar;
+export default SearchBar;
