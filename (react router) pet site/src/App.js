@@ -13,3 +13,8 @@ const appRouter = "REPLACE ME";
 function App() {
   return (
     // replace below with a Router Provider
+    <RouterProvider router={appRouter} />
+  );
+}
+
+export default App;
