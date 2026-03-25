@@ -4,6 +4,7 @@ import PetDetailsPage from './pages/detail';
 import PetDetailsNotFound from './pages/petDetailsNotFound';
 import Root from './components/root';
 import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
+import Search from './components/search';
 
 // Add react-router-dom imports
 
@@ -13,6 +14,7 @@ const appRouter = createBrowserRouter(createRoutesFromElements(
     <Route index element={ <HomePage /> } />
     <Route path=':type'  element={ <HomePage /> }/>
     <Route path=':type/:id' element={ <PetDetailsPage /> } />
+    <Route path='/search' element={ <SearchPage /> } />
   </Route>
 ));
 
