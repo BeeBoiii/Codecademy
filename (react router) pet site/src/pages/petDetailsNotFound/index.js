@@ -9,7 +9,7 @@ const PetDetailsNotFound = () => {
 
   const goHome = () => {
     navigate({
-      
+      pathname : '/'
     })
   }
   
