@@ -8,7 +8,11 @@ import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } 
 // Add react-router-dom imports
 
 // create router with JSX Route elements
-const appRouter = "REPLACE ME";
+const appRouter = createBrowserRouter(createRoutesFromElements(
+  <Route path='/' element={<Root />}>
+    <Route index element={ <HomePage /> } />
+  </Route>
+));
 
 function App() {
   return (
