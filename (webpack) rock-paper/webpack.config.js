@@ -7,7 +7,7 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
-    devSever: {
+    devServer: {
         port: 4001,
         host: '0.0.0.0',
         static: './'
