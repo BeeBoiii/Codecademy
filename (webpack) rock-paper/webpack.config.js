@@ -1,6 +1,10 @@
 module.exports = {
     mode: 'development',
     entry: './code/main.js',
+    output: {
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, dist)
+    },
     devSever: {
         port: 4001,
         host: '0.0.0.0',
